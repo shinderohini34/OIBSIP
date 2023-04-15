@@ -83,6 +83,7 @@ footer{
 }
  footer p>a{
     color: #2b619d;
+    
  }
 
 
@@ -111,7 +112,7 @@ footer{
         margin: auto;
     }
     footer p,a{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
   }
 
@@ -121,7 +122,7 @@ footer{
         margin: auto;
     }
     footer p,a{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
   }
 

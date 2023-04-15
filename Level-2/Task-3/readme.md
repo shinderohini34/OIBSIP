@@ -10,7 +10,7 @@ The four major tasks that we can perform in a TODO list are:
 - Delete tasks
 
 
-## Screenshots
+## Screenshot
 
 ![todo](https://user-images.githubusercontent.com/96229934/232128021-91da7a21-0676-4ddf-bcdf-082a29c7a48a.png)
 ## Tech Stack

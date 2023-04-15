@@ -4,7 +4,7 @@
 
 # Tribute Page
 
-![tribute page](https://user-images.githubusercontent.com/96229934/232202417-a5d18787-18c0-483d-b036-d5ab100d964b.
+![tribute page](https://user-images.githubusercontent.com/96229934/232202417-a5d18787-18c0-483d-b036-d5ab100d964b.png)
 
 # To-Do App
 

@@ -1,68 +1,137 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    color: white;
-    background-color: #313030;
+body {
+  color: white;
+  background-color: #0e0e0e;
+  /*width: 35%;*/
+  margin: auto;
 }
 
-.main{
-    background-color: black;
-    width: 40%;
-    margin: auto;
-    height: 100vh;
+.main {
+  background-color: #000000;
+  height: 100vh;
 }
 
-.header{
-    padding: 2rem;
-    margin-bottom: 0px;
+.header {
+  padding: 2rem;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.header > .title {
+  margin-bottom: 1rem;
+}
+
+.tribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 78rem;
+  margin: 0px auto;
+  background: white;
+  color: black;
+  align-items: center;
+  padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote {
+  text-align: center;
+  font-size: 14px;
+  width: 45%;
+  font-family: sans-serif;
+  line-height: 20px;
+  margin-left: 50px;
+}
+.tribute img {
+  max-width: 100%;
+}
+
+.bio {
+  margin: 2rem auto;
+  padding: 0px 0.5rem;
+  width: 65%;
+}
+
+.bio > h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.bio > p {
+  font-size: 14px;
+  line-height: 1.4;
+  display: flex;
+  align-items: auto;
+  font-family: sans-serif;
+}
+hr {
+  width: 80%;
+  margin: auto;
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #333;
+}
+
+footer{
     text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
 }
-
-.header > .title{
-    margin-bottom: 1rem;
-}
-
-.tribute{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    max-width: 78rem;
-    margin: 0px auto;
-    background: white;
-    color: black;
-    align-items: center;
-    padding: 0px 0px 0px 1rem;
-}
-
-.tribute blockquote{
-    text-align: center;
-    font-size: 15px;
-    width: 45%;
-    
-    
-}
-.tribute img{
-    max-width: 100%;
-}
-
-.bio{
-    margin: 2rem auto;
-    padding: 0px 0.5rem;
-    max-width: 40rem;
-}
-
-.bio > h2{
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    line-height: 1.2;
-}
-.bio > p{
-    font-size:  1.2rem;
-    line-height: 1.4;
-}
- .bio > hr{
-    margin-top: 2rem;
+ footer p>a{
+    color: #2b619d;
  }
+
+
+ @media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    footer p,a{
+        margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) and (min-width: 601px){
+    body{
+        width: 80%;
+        margin: auto;
+    }
+    footer p,a{
+        margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 992px) and (min-width: 769px){
+    body{
+        width: 70%;
+        margin: auto;
+    }
+    footer p,a{
+        margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) and (min-width: 993px){
+    body{
+        width: 55%;
+        margin: auto;
+    }
+    footer p,a{
+        margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1600px) and (min-width: 1201px){
+    body{
+        width: 35%;
+        margin: auto;
+    }
+    footer p,a{
+        margin-bottom: 20px;
+    }
+  }
+
